@@ -2,12 +2,12 @@ ammm=int(input())
 arrr=list(map(int,input().split()))
 arrr.sort(reverse=True)
 s0=0
-s1=0
+s2=0
 res=[]
 for i in range(0,ammm,2):
     s0=s0+arr[i]
 for j in range(1,ammm,2):
-    s1=s1+arrr[j]
-res.append([s0,s1])
+    s2=s2+arrr[j]
+res.append([s0,s2])
 for i in res:
     print(i[0] if i[0]>i[1] else i[1])
