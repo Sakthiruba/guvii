@@ -1,6 +1,6 @@
-st3,st8= input().split()
-for i in range(0,len(st3)-len(st8)+1):
-  if st3[i:len(st8)+i] == st8:
+st3,st4= input().split()
+for i in range(0,len(st3)-len(st4)+1):
+  if st3[i:len(st4)+i] == st4:
     print('yes')
     break
 else:
